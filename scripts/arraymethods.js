@@ -74,3 +74,6 @@ if (!Array.prototype.reduce) {
 
 
 // --------------------- POLYFILL REDUCE FUNCTION -------------------- //
+
+
+
