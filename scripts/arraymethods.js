@@ -1,3 +1,5 @@
+/*
+
 const datas = [3, 8, 10, 18, 19, 5, 11, 4];
 //console.log(datas);
 
@@ -76,4 +78,87 @@ if (!Array.prototype.reduce) {
 // --------------------- POLYFILL REDUCE FUNCTION -------------------- //
 
 
+
+const arr2 = [2, 4, 8, 17, 5, 9, 11, 4, 14, 2, 11];
+
+const objArr = [
+  {
+    id: 1,
+    name: 'Leanne Graham',
+    username: 'Bret',
+    email: 'Sincere@april.biz',
+    phone: '1-770-736-8031 x56442',
+    website: 'hildegard.org',
+    age: 32,
+  },
+  {
+    id: 2,
+    name: 'Ervin Howell',
+    username: 'Antonette',
+    email: 'Shanna@melissa.tv',
+    phone: '010-692-6593 x09125',
+    website: 'anastasia.net',
+    age: 23,
+  },
+  {
+    id: 3,
+    name: 'Clementine Bauch',
+    username: 'Samantha',
+    email: 'Nathan@yesenia.net',
+    phone: '1-463-123-4447',
+    website: 'ramiro.info',
+    age: 26,
+  },
+  {
+    id: 4,
+    name: 'Patricia Lebsack',
+    username: 'Karianne',
+    email: 'Julianne.OConner@kory.org',
+    phone: '493-170-9623 x156',
+    website: 'kale.biz',
+    age: 28,
+  },
+  {
+    id: 5,
+    name: 'Chelsey Dietrich',
+    username: 'Kamren',
+    email: 'Lucio_Hettinger@annie.ca',
+    phone: '(254)954-1289',
+    website: 'demarco.info',
+    age: 35,
+  },
+  {
+    id: 6,
+    name: 'Clementine Bauch',
+    username: 'Samantha',
+    email: 'Nathan@yesenia.net',
+    phone: '1-463-123-4447',
+    website: 'ramiro.info',
+    age: 26,
+  },
+  {
+    id: 7,
+    name: 'Ervin Howell',
+    username: 'Antonette',
+    email: 'Shanna@melissa.tv',
+    phone: '010-692-6593 x09125',
+    website: 'anastasia.net',
+    age: 23,
+  },
+];
+
+
+const uniqueval = [...new Set(arr2)];
+console.log(uniqueval);
+
+*/
+
+const mappedData = new Map();
+
+mappedData.set("a1","Rakesh");
+mappedData.set("a2","Prakash");
+mappedData.set("a1","Rahul");
+
+
+console.log(mappedData);
 
