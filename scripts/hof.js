@@ -1,4 +1,4 @@
-/*
+
 
 const radiuses = [5, 3, 8, 4];
 
@@ -41,10 +41,9 @@ console.log("areasOfCircle 🔴", areasOfCircle);
 console.log("circumferencesOfCircle 🟢", circumferencesOfCircle);
 console.log("diametersOfCircle 🔵", diametersOfCircle);
 
-*/
 
 //A higher-order function is a function that returns a function as its result
-
+/*
 function a(num1){
     return function(num2){
         return num1+num2;
@@ -56,3 +55,4 @@ const res = a(5)(7);
 console.log(res);
 
 //A higher-order function is a function that returns a function as its result
+*/
