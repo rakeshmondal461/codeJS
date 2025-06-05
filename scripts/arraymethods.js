@@ -155,10 +155,16 @@ console.log(uniqueval);
 
 const mappedData = new Map();
 
-mappedData.set("a1","Rakesh");
-mappedData.set("a2","Prakash");
-mappedData.set("a1","Rahul");
-
+mappedData.set("a1", "Rakesh");
+mappedData.set("a2", "Prakash");
+mappedData.set("a1", "Rahul");
 
 console.log(mappedData);
 
+let arr2 = [4, 8, 17, 5, 2, 9, 11, 4, 14, 2, 11];
+
+let minVal = arr2.reduce((acc, curr) => (acc < curr ? acc : curr), arr2[0]);
+
+let maxVal = arr2.reduce((acc, curr) => (acc > curr ? acc : curr), arr2[0]);
+
+console.log(maxVal);

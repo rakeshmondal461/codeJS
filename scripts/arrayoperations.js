@@ -233,3 +233,46 @@ console.log(minval);
 console.log(maxVal);
 
 */
+
+// SORTING ARRAY
+arr.sort((a, b) => a.localeCompare(b));
+
+let arr2 = [2, 4, 8, 17, 5, 9, 11, 4, 14, 2, 11];
+
+let uniqueValues = [...new Set(arr2)];
+// SORTING NUMBERS IN ARRAY
+let maxVal = uniqueValues.sort((a, b) => b - a)[0];
+console.log('Max Value:', maxVal);
+
+Object.freeze(arr2);
+
+arr2.push(28);
+
+
+console.log("arr2", arr2);
+
+/*
+
+// FINDING MINIMUM AND MAXIMUM VALUES IN ARRAY
+const minVal = uniqueValues.reduce((acc, curr) => (acc < curr ? acc : curr), uniqueValues[0]);
+const maxVal = uniqueValues.reduce((acc, curr) => (acc > curr ? acc : curr), uniqueValues[0]);
+console.log('Minimum value:', minVal);
+console.log('Maximum value:', maxVal);
+
+
+
+// FINDING THE SECOND LARGEST NUMBER IN ARRAY
+const secondLargest = uniqueValues.sort((a, b) => b - a)[1];
+console.log('Second largest number:', secondLargest);
+
+
+// FINDING THE SECOND SMALLEST NUMBER IN ARRAY
+const secondSmallest = uniqueValues.sort((a, b) => a - b)[1];
+console.log('Second smallest number:', secondSmallest);
+
+
+// FINDING THE AVERAGE OF NUMBERS IN ARRAY
+const average = uniqueValues.reduce((acc, curr) => acc + curr, 0) / uniqueValues.length;
+console.log('Average of numbers:', average);
+
+*/
